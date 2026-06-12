@@ -260,6 +260,10 @@ app.get('/', (req, res) => {
           setInterval(update, 5000);
           update();
         </script>
+        <script>
+          window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+        </script>
+        <script defer src="/_vercel/insights/script.js"></script>
       </body>
     </html>
   `);
@@ -458,6 +462,10 @@ app.get("/tutorial", (req, res) => {
             <p>AFK Bot Dashboard &middot; ${config.name}</p>
           </footer>
         </main>
+        <script>
+          window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+        </script>
+        <script defer src="/_vercel/insights/script.js"></script>
       </body>
     </html>
   `);
@@ -968,6 +976,10 @@ app.get("/logs", (req, res) => {
             scheduleRefresh();
           })();
         </script>
+        <script>
+          window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+        </script>
+        <script defer src="/_vercel/insights/script.js"></script>
       </body>
     </html>
   `);
