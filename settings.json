@@ -29,7 +29,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 60,
+      "repeat-delay": 300,
       "messages": [
         "HİLE YAPMAYIN PİÇLER",
         "Bunu yazan tosun okuyana koysun",
