@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "ShadowLand_69.aternos.me",
+    "ip": "ShadowLand_69.aternos.me:18840",
     "port": 18840,
     "version": "1.21.7",
     "try-creative": false
